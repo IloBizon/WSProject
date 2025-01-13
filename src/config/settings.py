@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'events',
     'lib',
+    'shop',
     'recipes',
-    'lib5upr'
+    'lib5upr',
 ]
 
 MIDDLEWARE = [
