@@ -39,10 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'events',
     'recipes',
-    'chief_recipes'
+    'chief_recipes',
     'lib',
     'shop',
     'lib5upr',
+    'sport_records',
 ]
 
 MIDDLEWARE = [
