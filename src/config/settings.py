@@ -38,9 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'events',
+    'recipes',
+    'chief_recipes'
     'lib',
     'shop',
-    'recipes',
     'lib5upr',
 ]
 
