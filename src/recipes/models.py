@@ -15,4 +15,7 @@ class Recipe(models.Model):
     def __str__(self):
         return self.name
 
+    def get_ingredients(self):
+        return ", ".join([i.name for i in self.ingredients.all()])
+
 
