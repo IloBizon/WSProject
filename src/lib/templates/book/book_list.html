@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book</title>
+</head>
+<body>
+<h2>Книги</h2>
+    {% for book in books %}
+        <p>Название: {{ book.title }}</p>
+        <p>Автор: {{ book.get_author }}</p>
+        <p>Жанр: {{ book.get_genre }}</p>
+<hr>
+    {% endfor %}
+</body>
+</html>
