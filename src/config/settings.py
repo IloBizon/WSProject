@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'lib',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,6 +40,9 @@ INSTALLED_APPS = [
     'events',
     'recipes',
     'chief_recipes'
+    'lib',
+    'shop',
+    'lib5upr',
 ]
 
 MIDDLEWARE = [
