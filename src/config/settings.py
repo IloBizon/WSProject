@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'events',
     'lib',
     'recipes',
+    'lib5upr'
 ]
 
 MIDDLEWARE = [
